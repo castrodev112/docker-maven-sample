@@ -17,7 +17,8 @@ stages
   }
   
  stage ('create docker image from Dockerfile')
- { steps { sh 'docker build -t pkw0301/samplejav:v1 .' } }
+ { steps { sh 'docker build -t pkw0301/samplejav:v1 .' 
+           sh 'docker images'} }
 
 
 }
