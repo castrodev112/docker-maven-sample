@@ -6,7 +6,7 @@ stages
 {
  stage ('scm checkout')
  { steps {
-     git branch: 'master', url: 'https://github.com/prakashk0301/docker-maven-sample'
+     git branch: 'master', url: 'https://github.com/castro112/docker-maven-sample'
  
  } }
 
